@@ -21,39 +21,42 @@ import { ProductDetailsComponent } from './component/product-details/product-det
 import { CreateStudentComponent } from './component/create-student/create-student.component';
 import { StudentListComponent } from './component/student-list/student-list.component';
 import { StudentComponent } from './component/Student/Student.component';
+import { ToDoListComponent } from './component/to-do-list/to-do-list.component';
+import { CreateTaskComponent } from './component/create-task/create-task.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    DemoComponent,
-    StudentComponent,
-    CourseComponent,
-    ProductlistComponent,
-    ImgboxDirective,
-    TranslatePipe,
-    NavbarComponent,
-    ProductlistComponent,
-    CreateProductComponent,
-    ProductChildComponent,
-    ProductParentComponent,
-    MainLayoutComponent,
-    DashbourdComponent,
-    DashbourdLayoutComponent,
-    ProductDetailsComponent,
-    CreateStudentComponent,
-    StudentListComponent,
-    StudentComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    ReactiveFormsModule,
-  AppRoutingModule,
-  HttpClientModule
-  ],
-  providers: [
-    // ProductService
-  ],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        DemoComponent,
+        CourseComponent,
+        ProductlistComponent,
+        ImgboxDirective,
+        TranslatePipe,
+        NavbarComponent,
+        ProductlistComponent,
+        CreateProductComponent,
+        ProductChildComponent,
+        ProductParentComponent,
+        MainLayoutComponent,
+        DashbourdComponent,
+        DashbourdLayoutComponent,
+        ProductDetailsComponent,
+        CreateStudentComponent,
+        StudentListComponent,
+        StudentComponent,
+        ToDoListComponent,
+        CreateTaskComponent
+    ],
+    imports: [
+        BrowserModule,
+        FormsModule,
+        ReactiveFormsModule,
+        AppRoutingModule,
+        HttpClientModule
+    ],
+    providers: [
+        // ProductService
+    ],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }

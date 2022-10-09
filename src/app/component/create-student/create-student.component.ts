@@ -11,7 +11,7 @@ import { StudentService } from 'src/app/service/Student.service';
 })
 export class CreateStudentComponent implements OnInit {
   addform: FormGroup;
-std!:IStudentAddtion
+    std!:IStudentAddtion
   constructor(private stdService:StudentService, private router: Router) {
     this.addform = new FormGroup(
       {
